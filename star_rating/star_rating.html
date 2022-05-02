@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Star rating</title>
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                height: 100vh;
+            }
+
+            .fa {
+                font-size: 40px;
+            }
+
+            .fa-star-o:before {
+                content: "\f006";
+                color: #5f6368;
+            }
+
+            .fa-star:before {
+                content: "\f005";
+                color: #d56e0c;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div id="star" class=""></div>
+        <div id="display-star-value"></div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
